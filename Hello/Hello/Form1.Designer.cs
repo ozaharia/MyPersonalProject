@@ -48,7 +48,7 @@
             this.textBox1.Location = new System.Drawing.Point(16, 59);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(256, 75);
+            this.textBox1.Size = new System.Drawing.Size(256, 128);
             this.textBox1.TabIndex = 1;
             // 
             // label1
@@ -68,6 +68,9 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.button1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
