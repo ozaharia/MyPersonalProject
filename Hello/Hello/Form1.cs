@@ -18,7 +18,7 @@ namespace Hello
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show(this.textBox1.Text);
+            MessageBox.Show(this.textBox.Text);
         }
     }
 }
