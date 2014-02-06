@@ -20,8 +20,7 @@ namespace Hello
 
         private void button1_Click(object sender, EventArgs e)
         {
-		this.strTextToShow = this.textBox.Text;
-		MessageBox.Show(this.strTextToShow + Environment.NewLine + this.textBox.Text);
+            MessageBox.Show(this.textBox.Text);
         }
     }
 }
