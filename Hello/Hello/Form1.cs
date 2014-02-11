@@ -20,7 +20,7 @@ namespace Hello
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show(this.textBox.Text);
+            MessageBox.Show(this.textBogsdfgsdfgsdfgx.Text);
         }
     }
 }
